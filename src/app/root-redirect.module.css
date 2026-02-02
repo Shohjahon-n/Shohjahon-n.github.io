@@ -1,0 +1,14 @@
+.main {
+  min-height: 100vh;
+  display: grid;
+  place-content: center;
+  gap: 0.75rem;
+  text-align: center;
+  color: var(--text);
+}
+
+.main a {
+  font-weight: 600;
+  color: var(--accent-2);
+  text-decoration: underline;
+}

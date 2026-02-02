@@ -1,0 +1,25 @@
+.switcher {
+  display: inline-flex;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  overflow: hidden;
+  background: var(--bg-elev);
+}
+
+.item {
+  padding: 0.35rem 0.55rem;
+  font-size: 0.75rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--muted);
+  transition: color 0.3s ease, background 0.3s ease;
+}
+
+.item:hover {
+  color: var(--text);
+}
+
+.active {
+  background: var(--accent);
+  color: var(--bg);
+}

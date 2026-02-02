@@ -1,0 +1,22 @@
+.footer {
+  border-top: 1px solid var(--line);
+  padding: 2.5rem 0 3.5rem;
+  position: relative;
+  z-index: 1;
+}
+
+.inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+
+@media (max-width: 720px) {
+  .inner {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}

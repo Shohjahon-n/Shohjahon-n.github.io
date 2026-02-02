@@ -1,0 +1,5 @@
+.body {
+  font-size: 1.05rem;
+  max-width: 70ch;
+  color: var(--text);
+}
