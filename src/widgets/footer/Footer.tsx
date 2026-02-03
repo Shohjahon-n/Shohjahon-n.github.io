@@ -1,7 +1,7 @@
-import { Locale } from "@/shared/config/locales";
-import { content } from "@/shared/config/portfolio";
-import { Container } from "@/shared/ui/container/Container";
-import styles from "./Footer.module.css";
+import { Locale } from '@/shared/config/locales';
+import { content } from '@/shared/config/portfolio';
+import { Container } from '@/shared/ui/container/Container';
+import styles from './Footer.module.css';
 
 export const Footer = ({ locale }: { locale: Locale }) => {
   const t = content[locale].footer;

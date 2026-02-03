@@ -13,7 +13,7 @@
   --radius: 1.2rem;
 }
 
-:root[data-theme="dark"] {
+:root[data-theme='dark'] {
   color-scheme: dark;
   --bg: #0d0f12;
   --bg-elev: #14171c;
@@ -40,18 +40,22 @@ html {
 body {
   min-height: 100vh;
   font-family: var(--font-sans);
-  background: radial-gradient(1200px 800px at 10% -20%, var(--glow-1), transparent 60%),
-    radial-gradient(900px 600px at 120% 10%, var(--glow-2), transparent 55%),
-    var(--bg);
+  background:
+    radial-gradient(1200px 800px at 10% -20%, var(--glow-1), transparent 60%),
+    radial-gradient(900px 600px at 120% 10%, var(--glow-2), transparent 55%), var(--bg);
   color: var(--text);
   line-height: 1.6;
 }
 
 body::before {
-  content: "";
+  content: '';
   position: fixed;
   inset: 0;
-  background-image: radial-gradient(circle at 1px 1px, color-mix(in srgb, var(--text) 8%, transparent) 1px, transparent 0);
+  background-image: radial-gradient(
+    circle at 1px 1px,
+    color-mix(in srgb, var(--text) 8%, transparent) 1px,
+    transparent 0
+  );
   background-size: 24px 24px;
   opacity: 0.35;
   pointer-events: none;

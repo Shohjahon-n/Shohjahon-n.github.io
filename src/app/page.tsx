@@ -1,9 +1,9 @@
-"use client";
+'use client';
 
-import { useEffect } from "react";
-import { useRouter } from "next/navigation";
-import { defaultLocale } from "@/shared/config/locales";
-import styles from "./root-redirect.module.css";
+import { useEffect } from 'react';
+import { useRouter } from 'next/navigation';
+import { defaultLocale } from '@/shared/config/locales';
+import styles from './root-redirect.module.css';
 
 export default function RootPage() {
   const router = useRouter();

@@ -1,9 +1,9 @@
-import Link from "next/link";
-import { Locale } from "@/shared/config/locales";
-import { content } from "@/shared/config/portfolio";
-import { Container } from "@/shared/ui/container/Container";
-import { Reveal } from "@/shared/ui/reveal/Reveal";
-import styles from "./Hero.module.css";
+import Link from 'next/link';
+import { Locale } from '@/shared/config/locales';
+import { content } from '@/shared/config/portfolio';
+import { Container } from '@/shared/ui/container/Container';
+import { Reveal } from '@/shared/ui/reveal/Reveal';
+import styles from './Hero.module.css';
 
 export const Hero = ({ locale }: { locale: Locale }) => {
   const t = content[locale];

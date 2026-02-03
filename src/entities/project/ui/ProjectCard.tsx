@@ -1,13 +1,13 @@
-import Link from "next/link";
-import { Locale } from "@/shared/config/locales";
-import { Project } from "@/shared/config/portfolio";
-import { Tag } from "@/shared/ui/tag/Tag";
-import styles from "./ProjectCard.module.css";
+import Link from 'next/link';
+import { Locale } from '@/shared/config/locales';
+import { Project } from '@/shared/config/portfolio';
+import { Tag } from '@/shared/ui/tag/Tag';
+import styles from './ProjectCard.module.css';
 
 export const ProjectCard = ({
   project,
   locale,
-  labels
+  labels,
 }: {
   project: Project;
   locale: Locale;

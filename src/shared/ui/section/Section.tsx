@@ -1,7 +1,7 @@
-import { ReactNode } from "react";
-import { cn } from "@/shared/lib/cn";
-import { Container } from "@/shared/ui/container/Container";
-import styles from "./Section.module.css";
+import { ReactNode } from 'react';
+import { cn } from '@/shared/lib/cn';
+import { Container } from '@/shared/ui/container/Container';
+import styles from './Section.module.css';
 
 type SectionProps = {
   id?: string;

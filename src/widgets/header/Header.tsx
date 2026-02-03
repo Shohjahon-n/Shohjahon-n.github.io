@@ -1,10 +1,10 @@
-import Link from "next/link";
-import { Locale } from "@/shared/config/locales";
-import { content } from "@/shared/config/portfolio";
-import { Container } from "@/shared/ui/container/Container";
-import { LocaleSwitcher } from "@/features/locale-switcher/LocaleSwitcher";
-import { ThemeToggle } from "@/features/theme-toggle/ThemeToggle";
-import styles from "./Header.module.css";
+import Link from 'next/link';
+import { Locale } from '@/shared/config/locales';
+import { content } from '@/shared/config/portfolio';
+import { Container } from '@/shared/ui/container/Container';
+import { LocaleSwitcher } from '@/features/locale-switcher/LocaleSwitcher';
+import { ThemeToggle } from '@/features/theme-toggle/ThemeToggle';
+import styles from './Header.module.css';
 
 export const Header = ({ locale }: { locale: Locale }) => {
   const t = content[locale];

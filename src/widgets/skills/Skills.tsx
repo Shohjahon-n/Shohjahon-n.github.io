@@ -1,9 +1,9 @@
-import { Locale } from "@/shared/config/locales";
-import { content } from "@/shared/config/portfolio";
-import { Section } from "@/shared/ui/section/Section";
-import { Tag } from "@/shared/ui/tag/Tag";
-import { Reveal } from "@/shared/ui/reveal/Reveal";
-import styles from "./Skills.module.css";
+import { Locale } from '@/shared/config/locales';
+import { content } from '@/shared/config/portfolio';
+import { Section } from '@/shared/ui/section/Section';
+import { Tag } from '@/shared/ui/tag/Tag';
+import { Reveal } from '@/shared/ui/reveal/Reveal';
+import styles from './Skills.module.css';
 
 export const Skills = ({ locale }: { locale: Locale }) => {
   const t = content[locale].skills;

@@ -1,6 +1,6 @@
-import { ElementType, ReactNode, CSSProperties } from "react";
-import { cn } from "@/shared/lib/cn";
-import styles from "./Reveal.module.css";
+import { ElementType, ReactNode, CSSProperties } from 'react';
+import { cn } from '@/shared/lib/cn';
+import styles from './Reveal.module.css';
 
 type RevealProps<T extends ElementType> = {
   as?: T;
@@ -9,17 +9,17 @@ type RevealProps<T extends ElementType> = {
   children: ReactNode;
 };
 
-export const Reveal = <T extends ElementType = "div">({
+export const Reveal = <T extends ElementType = 'div'>({
   as,
   delay = 0,
   className,
-  children
+  children,
 }: RevealProps<T>) => {
-  const Comp = as || "div";
+  const Comp = as || 'div';
   return (
     <Comp
       className={cn(styles.reveal, className)}
-      style={{ "--delay": `${delay}ms` } as CSSProperties}
+      style={{ '--delay': `${delay}ms` } as CSSProperties}
     >
       {children}
     </Comp>

@@ -1,17 +1,17 @@
-import { Locale } from "@/shared/config/locales";
-import { content } from "@/shared/config/portfolio";
-import { Section } from "@/shared/ui/section/Section";
-import { Reveal } from "@/shared/ui/reveal/Reveal";
-import styles from "./Contact.module.css";
+import { Locale } from '@/shared/config/locales';
+import { content } from '@/shared/config/portfolio';
+import { Section } from '@/shared/ui/section/Section';
+import { Reveal } from '@/shared/ui/reveal/Reveal';
+import styles from './Contact.module.css';
 
 const getHref = (value: string) => {
-  if (value.includes("@")) {
+  if (value.includes('@')) {
     return `mailto:${value}`;
   }
-  if (value.startsWith("t.me/")) {
+  if (value.startsWith('t.me/')) {
     return `https://${value}`;
   }
-  if (value.startsWith("github.com/")) {
+  if (value.startsWith('github.com/')) {
     return `https://${value}`;
   }
   return value;

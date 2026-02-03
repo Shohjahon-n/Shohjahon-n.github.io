@@ -1,9 +1,9 @@
-import { Locale } from "@/shared/config/locales";
-import { content, projects } from "@/shared/config/portfolio";
-import { Section } from "@/shared/ui/section/Section";
-import { ProjectCard } from "@/entities/project/ui/ProjectCard";
-import { Reveal } from "@/shared/ui/reveal/Reveal";
-import styles from "./Projects.module.css";
+import { Locale } from '@/shared/config/locales';
+import { content, projects } from '@/shared/config/portfolio';
+import { Section } from '@/shared/ui/section/Section';
+import { ProjectCard } from '@/entities/project/ui/ProjectCard';
+import { Reveal } from '@/shared/ui/reveal/Reveal';
+import styles from './Projects.module.css';
 
 export const Projects = ({ locale }: { locale: Locale }) => {
   const t = content[locale].projects;

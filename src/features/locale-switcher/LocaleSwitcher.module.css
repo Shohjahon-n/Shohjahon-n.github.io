@@ -12,7 +12,9 @@
   letter-spacing: 0.08em;
   text-transform: uppercase;
   color: var(--muted);
-  transition: color 0.3s ease, background 0.3s ease;
+  transition:
+    color 0.3s ease,
+    background 0.3s ease;
 }
 
 .item:hover {
